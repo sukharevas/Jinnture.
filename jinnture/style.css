@@ -1,0 +1,250 @@
+* {box-sizing: border-box;
+    margin: 0; padding: 0;
+    font-family: 'Unbounded', sans-serif;}
+
+html {min-width: 1000px;}
+body {min-width: 1000px;}
+
+#head {
+    background-color: none;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+    height: min-content;
+}
+
+.sevelar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.top {
+    align-items: flex-start;
+    padding-top: 30px;
+    height: min-content;
+    background-image: url(img/white.png);
+    background-repeat: no-repeat;
+}
+
+#woman {
+    padding-top: 60px;
+}
+
+#new {
+    text-align: center;
+    color: grey;
+    background-color: #E7E7E7;
+    width: 1000px;
+    height: 101px;
+    font-size: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 260px;
+    padding-top: 34px
+}
+
+@keyframes bottom1 {
+    from {
+        background-color: #E7E7E7;
+        color: grey;
+    }
+    to {
+        background-color: #cecece;
+        color: rgb(117, 117, 117);
+    }
+}
+
+#new:hover {
+    animation-name: bottom1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#toptext {
+    margin-left: 85px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    color: grey;
+}
+
+#bag {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    color: black;
+    font-size: 48px;
+    margin-top: 70px;
+    background-image: url(img/bag.png);
+    height: 630px; width: 997px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#explore {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: grey;
+    font-size: 32px;
+}
+
+#forher {
+    background-image: url(img/girl.png);
+    width: 462px;
+    height: 653px;
+    font-size: 24px;
+    color: black;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#forhim {
+    background-image: url(img/boy.png);
+    width: 462px;
+    height: 653px;
+    font-size: 24px;
+    color: black;
+    padding-top: 30px;
+    padding-left: 308px;
+}
+
+#shop {
+    text-align: center;
+    color: grey;
+    background-color: #E7E7E7;
+    width: 1000px;
+    height: 101px;
+    font-size: 32px;
+    margin-right: auto;
+    padding-top: 34px;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+@keyframes bottom1-2 {
+    from {
+        background-color: #E7E7E7;
+        color: grey;
+    }
+    to {
+        background-color: #cecece;
+        color: rgb(117, 117, 117);
+    }
+}
+
+#shop:hover {
+    animation-name: bottom1-2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#endtext {
+    margin-right: 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+#uni {font-size: 32px; margin-bottom: 30px; color: grey;}
+
+#ex {font-size: 24px;
+    color: rgb(187, 187, 187);
+    border-bottom: 4px white solid;
+    padding-bottom: 5px;
+}
+
+@keyframes bottom2 {
+    from {
+        border-bottom: 4px white solid;
+    }
+    to {
+        border-bottom: 4px rgb(187, 187, 187) solid;
+    }
+}
+
+.ex:hover {
+    animation-name: bottom2;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;    
+}
+
+#email {
+    margin-top: 60px;
+    width: 1000px;
+    margin-left: auto; margin-right: auto;
+}
+
+input {
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 24px;
+    margin-top: 35px;
+    border: 5px white solid;
+    width: 1000px;
+    border-bottom: 4px rgb(187, 187, 187) solid;
+    padding-bottom: 15px;
+}
+
+@keyframes input {
+    from {
+        border-bottom: 4px rgb(187, 187, 187) solid;
+    }
+    to {
+        border-bottom: 4px black solid;
+    }
+}
+
+input:hover {
+    animation-name: input;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+input:focus {
+    border-bottom: 4px black solid
+}
+
+::placeholder {
+    color: rgb(187, 187, 187);
+}
+
+#end {
+    margin-top: 60px;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 60px;
+    align-items: flex-start;
+}
+
+#column {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 125px;
+}
+
+@keyframes bottom3 {
+    from {
+        color: black;
+    }
+    to {
+        color: gray;
+    }
+}
+
+.ex1:hover {
+    animation-name: bottom3;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;    
+}
+

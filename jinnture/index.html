@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Jinnture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Unbounded:wght@200;400;700;800;900&display=swap" rel="stylesheet">
+  </head>
+<body>
+
+<div id="head">
+    <div class="sevelar top">
+        <img src="img/search.png">
+
+            <img src="img/logo.png" width="906px" id="img1">
+
+        <img src="img/man.png">
+    </div>
+</div>
+
+<div id="new">NEW IN</div>
+
+<div class="sevelar" id="woman">
+    <div id="toptext">
+        <p id="uni">GIFTS FOR HER</p>
+        <p id="ex" class="ex">EXPLOE THE COLLECTION</p>
+    </div>
+    <img src="img/woman.png">
+</div>
+
+<div id="bag">
+    <p>ACCESSORIES</p>
+</div>
+
+<div id="explore">EXPLORE THE COLLECTION</div>
+
+<div class="sevelar">
+    <div id="forher">
+        <p>FOR HER</p>
+    </div>
+    <div id="forhim">
+        <p>FOR HIM</p>
+    </div>
+</div>
+
+<div id="shop">SHOP NOW</div>
+
+<div class="sevelar">
+    <img src="img/end.png" width="462px">
+    <div id="endtext">
+        <p id="uni">UNIQUE TECHNOLOGIES<br>AND<br>EXCLUSIVE FABRICS</p>
+        <p id="ex"  class="ex">EXPLORE MORE</p>
+    </div>
+</div>
+
+<div id="email">
+    <p id="uni">NEWSLETTER</p>
+    <p id="ex">SIGN IN TO RECEIVE OUR LATEST NEWS ABOUT PRODUCTS,
+        <br>COLLECTIONS, SHOWS AND COLLABORATIONS.</p>
+    <input type="text" id="email1" placeholder="E-MAIL">
+</div>
+
+
+<div class="sevelar" id="end">
+    <div id="column">
+        <p class="ex1">OUR CONTACTS</p>
+        <p class="ex1">FAQs</p>
+    </div>
+    <div id="column">
+        <p class="ex1">ABOUT US</p>
+        <p class="ex1">LEGAL</p>
+    </div>
+    <p class="ex1">STORE LOCATION</p>
+</div>
+
+<script>
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+        let img1 = document.getElementById("img1")
+  
+        img1.style.transform = "scale(0.3)";
+        img1.style.transition = "0.5s";
+        console.log(document.getElementById("white"))
+ 
+ 
+        img1.style.marginTop = "-95px";
+
+
+      } else {
+        img1.style.transform = "scale(1)";
+        img1.style.transition = "0.5s";
+   
+  
+        img1.style.marginTop = "0px";
+     
+
+      }
+    }
+</script> 
+
+</body>
+</html>
